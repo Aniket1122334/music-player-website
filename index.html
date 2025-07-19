@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - YOUR FAVOURITE MUSIC IS HERE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>BEST BHAKTI SONGS</h1>
+
+            <div class="songcontainer">
+
+                <div class="songitem">
+                    <img alt="cover1">
+                    <span class="songname">Mere Baba</span>
+                    <span class="songlistplay">05:07 <i id="0"
+                    <span class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover2">
+                    <span class="songname">Govind Bolo</span>
+                    <span class="songlistplay">05:07 <i id="1"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover3">
+                    <span class="songname">Ram Aaye Hai</span>
+                    <span class="songlistplay">05:08 <i id="2"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover4">
+                    <span class="songname">Bhola Bhandari</span>
+                    <span class="songlistplay">05:08 <i id="3"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover5">
+                    <span class="songname">Shiv Mere Hai</span>
+                    <span class="songlistplay">05:08 <i id="4"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover6">
+                    <span class="songname">Bajrang Baan</span>
+                    <span class="songlistplay">05:08 <i id="5"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover7">
+                    <span class="songname">Siya Ram</span>
+                    <span class="songlistplay">05:08 <i id="6"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover8">
+                    <span class="songname">Shiv Tandav</span>
+                    <span class="songlistplay">05:08 <i id="7"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i>
+                    </span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover9">
+                    <span class="songname">Shri Hari Stotram</span>
+                    <span class="songlistplay">05:08 <i id="8"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+
+                <div class="songitem">
+                    <img alt="cover10">
+                    <span class="songname">Hanuman Chalisa</span>
+                    <span class="songlistplay">05:08 <i id="9"
+                            class="fa-solid songplay fa-2x fa-circle-play fa-1xl"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" class="progressbar" value="0" min="0" max="100">
+
+        <div class="icon">
+            <!-- Font awessome icon -->
+            <i id="previous" class="fa-solid fa-3x fa-step-backward fa-1xl"></i>
+
+            <i class="fa-solid fa-3x fa-circle-play fa-1xl" id="masterPlay"></i>
+
+            <i id="next" class="fa-solid fa-3x fa-step-forward fa-1xl"></i>
+        </div>
+
+        <div class="songinfo">
+            <img src="playing.gif" width="103px" alt="" id="gif"><span id="mastersongname">Mere Baba</span>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+
+    <script src="https://kit.fontawesome.com/27a63a2566.js" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
